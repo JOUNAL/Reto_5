@@ -3,7 +3,7 @@
 
 
 
-## Reto 4.1
+## Reto 5.1
 
 Para esta parte del reto, simplemente ponemos toda la clase Shape (figura) dentro de un archivo llamado shapies, de este modo creando un modulo, despues ponemos ese archivo dentro de una carpeta que tambien contenga un __init__.py para que python lo pueda reconocer, de esta manera creamos un paquete, y el archivo que contiene el codigo inicial se llamara Shape, donde se importara el paquete shapies, teniendo de este modo la siguiente organizacion
 
@@ -230,7 +230,7 @@ print("El perimetro del rectangulo es de:" + str(rectangulo1.compute_perimeter()
 ```
 (El * al inicio se hace para no tener que estar declarando el modulo cada que se vaya a usar, y ya que vamos a utilizar todo lo que contiene el paquete, se coloca el * en vez de todas las clase individuales)
 
-## 4.2
+## Reto 5.2
 Para este caso, de poner todas las clase que heredan de Shape como un modulo, simplemente  ponemos cada codigo de cada clase que hereda con sus respectivas herencias e importamos el modulo shapies de en los modulos, dejandonos las siguiente estrucura de carpetas
 
 ```
